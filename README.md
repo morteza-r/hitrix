@@ -723,6 +723,8 @@ First you need these in your app config:
 chrome_headless:
   web_socket_url: ENV[CHROME_HEADLESS_WEB_SOCKET_URL]
 ```
+WebSocket url sample: `"ws://127.0.0.1:9222"`
+
 Register the PDF service:
 
 ```go
